@@ -1,0 +1,53 @@
+/*--- Sidebar Index Indicators ---*/
+#collection-5d951fad485ecc78eea37615,
+#collection-5ca208abee6eb02efddfc066{
+  .Index-nav {
+    left:208px;
+  }
+  .Index-nav-inner {
+    align-items:flex-start;
+    .Index-nav-item {
+      padding:20px;
+      min-width:210px;
+      border-radius:~'0% 3% 3% 0% / 10% 51% 51% 10% ';
+      background-color:rgba(76,91,82,.6);
+      margin:2px 0;
+      &.active {
+        background-color:rgba(76,91,82,1);
+      }
+    }
+    .Index-nav-text {
+      left:0;
+      opacity:1;
+      display:block;
+      transform:none;
+      position:relative;
+      text-align:left;
+      span {
+        position:relative;
+        top:5px;
+        font-size:16px;
+        line-height:16px;
+        letter-spacing:0.025em;
+      }
+    }
+    .Index-nav-indicator {
+      display:none;
+    }
+  }
+}
+/* changes for Menu page */
+#collection-5ca208abee6eb02efddfc066 {
+  .Index-page-content {
+    padding-left:210px;
+  }
+  .Index-nav-item {
+    max-width:210px !important;
+  }
+  .Index-nav-text {
+    left:0px !important;
+    span {
+     font-size:10px !important;
+    }
+  }
+}
